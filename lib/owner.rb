@@ -8,6 +8,10 @@ class Owner
     @@all
   end
 
+  def self.count
+    @all.count
+  end
+
   def initialize(species)
     @species = species
     @@all.push(self)
