@@ -10,6 +10,7 @@ class Owner
 
   def initialize(species)
     @species = species
+    @@all.push(self)
   end
 
 end
