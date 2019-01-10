@@ -26,4 +26,8 @@ class Owner
     "I am a #{self.species}."
   end
 
+  def pets
+    @pets = {fishes: [], dogs: [], cats: []}
+  end
+
 end
