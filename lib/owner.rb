@@ -12,6 +12,10 @@ class Owner
     @@all.count
   end
 
+  def reset_all
+    @@all = []
+  end
+
   def initialize(species)
     @species = species
     @@all.push(self)
